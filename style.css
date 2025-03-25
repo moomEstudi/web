@@ -1,0 +1,72 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.verd {
+    color: green;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+}
+
+.llista-projectes {
+  display:flex;
+  flex-direction: column;
+}
+
+.projecte {
+  border: 1px solid black;
+  margin: 10px;
+}
+.projecte-imatges {
+  display:none;
+}
+
+/* Estils responsius */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
